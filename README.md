@@ -15,3 +15,7 @@ We use a cooling schedule to maintain a careful balance between exploration and 
 In part 3, we use the Nelder-Mead algorithm to optimize parameters of a production chain. This method is great when we are dealing with multi-dimensional data, where other optimization algorithms may struggle. We use simplexes to navigate the cost function, and use geometric transformations to move around the function with the goal of minimizing the cost function.
 
 Starting with an initial guess, the algorithm shows good efficiency in converging toward local optima.
+
+# Running the code
+
+The code is written with the python programming language, and as such, a python runtime environment is needed to run the code. The libraries `numpy` and `matplotlib` are also required to run the code. Each part is in a different file.
